@@ -1,6 +1,6 @@
 socket = io();
 
-document.querySelector("form").onsubmit = () =>
+document.querySelector("form").onsubmit = (e) =>
 {
     e.preventDefault()
     nombre = document.querySelector("#nombre").value
